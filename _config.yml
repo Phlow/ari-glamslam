@@ -9,24 +9,39 @@
 #
 
 # Title and description of your site
-title:        	''
-description:  	''
-credits:		''
-language: 		'de'
+title:          'Ari Glamslam'
+description:    'Sie benötigen einen Webdesigner, Suchmaschinenoptimierer oder Social Media-Experten? Ari Glamslam bietet modernes Webdesign, SEO und Marketing.'
+slogan:        	'Webdesign, Marketing & SEO'
 
 # Build settings
-url:          'http://localhost:4000'
+url:          'http://phlow.github.io/ari-glamslam'
 baseurl:      ''
-urlimg:       'img/'
+urlimg:       'http://phlow.github.io/ari-glamslam/img/'
 markdown:     kramdown
-highlighter:  pygments
-permalink:    :title.html
+highlighter:  rouge
+permalink:    /:categories/:title/
 encoding:     utf-8
 
 # Use <!--more--> in your posts to generate an excerpt and a teaser
 excerpt_separator: <!--more-->
 
 
+
+# The language setting is used in /includes/header.html for html-settings
+language:       'de'
+
+
+
+#      ______
+#     / ____/__  ____ ___  _____
+#    / / __/ _ \/ __ `__ \/ ___/
+#   / /_/ /  __/ / / / / (__  )
+#   \____/\___/_/ /_/ /_/____/
+#
+gems:
+    - jekyll-gist
+    - jekyll-sitemap
+    - jekyll-paginate
 
 # Exclude these files from your production _site
 exclude:
@@ -35,7 +50,6 @@ exclude:
     - Gemfile.lock
     - README.md
     - INSTALL.md
-
 
 #
 #       ____       ____            ____
