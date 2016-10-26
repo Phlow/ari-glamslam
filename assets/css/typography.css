@@ -1,0 +1,96 @@
+/* Typography
+
+http://www.modularscale.com/?1&em&1.2&web&text
+
+1.2em
+1.44em
+1.728em
+2.074em
+2.488em
+2.986em
+0.833em
+0.694em
+------------------------------------------------------------------- */
+
+body {
+    font-family: Roboto, Helvetica, Verdana, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #fff;
+    background: #14191f;
+    -webkit-text-size-adjust: 100%;
+    /* http://blog.typekit.com/2014/02/05/kerning-on-the-web/ */
+    text-rendering: optimizeLegibility;
+    /* http://practice.typekit.com/lesson/caring-about-opentype-features/ */
+    font-kerning: normal;
+    font-variant-ligatures: common-ligatures, contextual;
+    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
+    -ms-font-feature-settings: "kern", "liga", "clig", "alt";
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
+    font-feature-settings: "kern", "liga", "clig", "calt";
+}
+
+
+/* Links
+------------------------------------------------------------------- */
+
+a {
+    -webkit-transition: all .15s cubic-bezier(.33,.66,.66,1);
+    transition: all .15s cubic-bezier(.33,.66,.66,1);
+    text-decoration: none;
+    font-weight: normal;
+    color: #FF410D;
+}
+a:hover {
+    color: #FFB20D;
+}
+
+
+/* Headlines
+------------------------------------------------------------------- */
+
+h1 {
+    font-size: 2.488em;
+}
+h2 {
+    font-size: 2.074em;
+}
+h3 {
+    font-size: 1.728em;
+}
+h4 {
+    font-size: 1.44em;
+}
+h5 {
+   font-size: 1.2em;
+}
+h6 {
+    font-size: 1.2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Slab";
+}
+
+
+p {
+}
+
+img {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.subheadline {
+    color: #748aa6;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    font-size: 1.25em;
+}
+
